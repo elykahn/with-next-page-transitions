@@ -10,7 +10,7 @@ const About = (props) => {
     const timeoutId = setTimeout(() => {
       pageTransitionReadyToEnter()
       setLoaded(true)
-    }, 5000)
+    }, 1000)
     return () => {
       clearTimeout(timeoutId)
     }
